@@ -1,39 +1,158 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Matahi Historical Society homepage</title>
-    <link rel="stylesheet" href="styles/styles.css">
-  </head>
-  <body>
-    <!-- Here is our main header that is used across all the pages of our website -->
-    <header class="header">
-      <h1>Matahi Historical Society</h1>
-    </header>
-    <nav class="topnav">
-      <a href="#" class="topnav">Home</a></li>
-      <a href="#" class="topnav">Browse photos</a></li>
-      <a href="#" class="topnav">Submit photos</a></li>
-      <a href="#" class="topnav">Contact</a></li>
-    </nav>
-    <!-- Here is our page's main content -->
-    <main>
-      <div class="row">
-        <div class="column">
-          <h2>Column 1</h2>
-          <p>Paragraph 1.</p>
-          <p>Paragraph 2.</p>
-        </div>
-        <div class="column">
-          <h2>Column 2</h2>
-          <p>Paragraph 1.</p>
-          <p>Paragraph 2.</p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0"
+        name="viewport">
+    <meta name="msvalidate.01" content="684BEAA87D856DED9528101E3AEB4BBB" />
+  <title>Welcome! | The Haukai Restaurant</title>
+  <link href="https://fonts.gstatic.com"
+        rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+  <link crossorigin="anonymous"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+        rel="stylesheet">
+  <link href="styles.css"
+        rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-189377577-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-189377577-1');
+</script>
+
+</head>
+<body>
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand"
+           href="index.html"><img alt="The Haukai Restaurant Logo"
+           height="70"
+           src="images/logo.png"></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      <div class="collapse navbar-collapse"
+           id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link"
+                href="index.html"><strong>HOME</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+                href="menu.html"><strong>MENU</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+                href="reservation.html"><strong>RESERVATIONS</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+                href="about.html"><strong>ABOUT</strong></a>
+          </li>
+        </ul>
+        <div class="login">
+          <a href="private/staff-area.html"><button class="btn btn-outline-dark"
+                  type="button">STAFF LOGIN</button></a>
         </div>
       </div>
-    </main>
-    <!-- And here is our main footer that is used across all the pages of our website -->
-    <footer class="footer">
-      <p>©Copyright 2018 by Matahi Historical Society. All rights reversed.</p>
-    </footer>
-  </body>
+    </div>
+  </nav><!-- INDEX BANNER -->
+  <header class="index-banner">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1>The Haukai<br>
+          Restaurant</h1>
+          <p class="lead">Home to traditional Maori kai.</p>
+        </div>
+      </div>
+    </div>
+  </header><!-- BODY CONTENT -->
+  <div class="container content-row">
+    <div class="row">
+      <div class="col-sm-12 col-lg-6 d-flex">
+        <div class="card text-center flex-fill">
+          <img alt="The Haukai Restaurant Counter Area"
+               class="card-img-top"
+               src="images/counter.jpg">
+          <div class="card-body">
+            <h5 class="card-title">The Haukai Restaurant</h5>
+            <p class="card-text">The Haukau Restaurant is a newly established eatery in the Bay of Islands. We provide a traditional and authentic dining experience with the fusion of Māori and Pākeha food/kai.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-6 d-flex">
+        <div class="card text-center flex-fill">
+          <img alt="The Haukai Restaurant Kitchen"
+               class="card-img-top"
+               src="images/kitchen.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Our Food</h5>
+            <p class="card-text">Our kitchen uses only the freshest produce. Sourced from the local area when preparing each and every meal.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-6 d-flex">
+        <div class="card text-center flex-fill">
+          <img alt="The Haukai Restaurant Bar Area"
+               class="card-img-top"
+               src="images/bar.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Drinks</h5>
+            <p class="card-text">We provide wide selection of alcoholic and non-alcoholic beverages to cater for every family member.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-6 d-flex">
+        <div class="card text-center flex-fill">
+          <img alt="The Haukai Restaurant Dining Area"
+               class="card-img-top"
+               src="images/dining-area.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Dining Area</h5>
+            <p class="card-text">We have a selection of indoor and outdoor seating available. Whether you're looking for a family gathering out or a romantic night out.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- SITE BUTTONS -->
+  <div class="container">
+    <div class="site-links">
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-lg-6">
+          <a href="menu.html"><button class="btn btn-dark btn-lg btn-block"
+                  type="button">OUR MENU</button></a> <a href="reservation.html"><button class="btn btn-dark btn-lg btn-block"
+                  type="button">RESERVATIONS</button></a> <a href="about.html#opening-hours"><button class="btn btn-dark btn-lg btn-block"
+                  type="button">OPENING HOURS</button></a> <a href="about.html"><button class="btn btn-dark btn-lg btn-block"
+                  type="button">ABOUT US</button></a> <a href="about.html#contact-us"><button class="btn btn-dark btn-lg btn-block"
+                  type="button">CONTACT US</button></a>
+        </div>
+      </div>
+    </div>
+  </div><!-- SITE FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>The Haukai Restaurant ©<br>
+          <a href="privacy.html">Privacy Statement</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script crossorigin="anonymous"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
+  <script crossorigin="anonymous"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
