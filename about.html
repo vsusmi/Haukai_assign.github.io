@@ -165,18 +165,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-lg-6 d-flex">
-        <div class="card text-center flex-fill">
-          <div class="card-body">
-            <h5 class="card-title">Our Location</h5>
-          </div>
-          <div class="about-info">
-            <div class="map-container">
-              <div id="map"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </div><!-- SITE FOOTER -->
   <footer class="footer">
@@ -189,19 +178,7 @@
       </div>
     </div>
   </footer>
-  <script>
-    function initMap(){
-      var location = {lat: -35.218400, lng: 173.962880};
-      var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 18,
-        center: location
-      });
-      var marker = new google.maps.Marker({
-        position: location,
-        map: map
-      });
-    }    
-  </script> 
+ 
   <script async
         defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNFduHXgdKdGYsVIoZpRKc3cChhAbIvy8&callback=initMap"></script> 
