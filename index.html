@@ -1,158 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0"
-        name="viewport">
-    <meta name="msvalidate.01" content="684BEAA87D856DED9528101E3AEB4BBB" />
-  <title>Welcome! | The Haukai Restaurant</title>
-  <link href="https://fonts.gstatic.com"
-        rel="preconnect">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet">
-  <link crossorigin="anonymous"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-        rel="stylesheet">
-  <link href="styles.css"
-        rel="stylesheet">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-189377577-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/my-css.css">
+  <title>The Haukai Restaurant Homepage</title>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179583122-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'UA-189377577-1');
-</script>
+    gtag('config', 'UA-179583122-1');
+  </script>
 
-</head>
+</head>  
 <body>
-  <!-- NAVIGATION BAR -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand"
-           href="index.html"><img alt="The Haukai Restaurant Logo"
-           height="70"
-           src="images/logo.png"></a>
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-      <div class="collapse navbar-collapse"
-           id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link"
-                href="index.html"><strong>HOME</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"
-                href="menu.html"><strong>MENU</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"
-                href="reservation.html"><strong>RESERVATIONS</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"
-                href="about.html"><strong>ABOUT</strong></a>
-          </li>
-        </ul>
-        <div class="login">
-          <a href="private/staff-area.html"><button class="btn btn-outline-dark"
-                  type="button">STAFF LOGIN</button></a>
+
+ <div class="container">    <!--This set 100%vh use for controlling footer section-->  
+  <header class="w3-container w3-teal">
+    <h1 id="home" >The Haukai Restaurant</h1>
+  </header>
+  <nav class="w3-bar w3-black">
+    <a href="index.html#home" class="w3-bar-item w3-button w3-mobile">Home</a>
+    <a href="menu.html#menu" class="w3-bar-item w3-button w3-mobile">Menu</a>
+    <a href="reservation.html#rese" class="w3-bar-item w3-button w3-mobile">Reservation</a>
+    <a href="hours.html#hour" class="w3-bar-item w3-button w3-mobile">Hours</a>
+    <a href="contact.html#cont" class="w3-bar-item w3-button w3-mobile">Contact</a>
+    <a href="roster/staff.html#staff" class="w3-bar-item w3-button w3-mobile">Staff</a>
+  </nav>
+
+  <main >
+        <div class="bg-text">
+          <h2 id="h2-exp">Experience the Maori Culture & Kai</h2>
+           <a href="reservation.html#rese" role="button" class="w3-btn w3-teal w3-hover-grey w3-round-xxlarge" >Book Now </a>
         </div>
+ </main> 
+</div> <!--div ending for main container-->
+
+<!--Additional content for album images using w3-container-->
+<div class="w3-row-padding w3-margin-bottom" role="img" aria-label="Haukai Restaurant & Maori Cultural Images">
+
+  <div class="half">
+    <div class="w3-card">
+      <picture>
+        <source srcset="images/restaurant_mod20d.jpg" media="(max-width: 600px)" class="w3-image" >
+        <source srcset="images/index1_restaurant_640.jpg" media="(max-width: 1500px)" class="w3-image w3-hover-grayscale">
+        <img src="images/index1_restaurant_640.jpg" class="w3-image w3-border w3-hover-grayscale" alt="This is the image of the restaurant." title="">
+       </picture>
+        <div class="w3-container w3-grey">
+            <h2>Wecolme to The Haukai Restaurant!</h2>
+            <p>Featuring <strong>Maori & Pakeha Kai</strong></p>
+            <p>  Experience the <strong>Maori karakia</strong> for food blessings </p>
+            <p>Enjoy the taste of our rich culture & traditions</p> 
+            <hr>
+            <p>Open Wednesday to Sunday <br>
+              From 6:00pm-9:00pm<br>
+              Phone: 09-401-4019
+            </p>
+            <p>
+              <strong>Email:</strong> booking@thehaukai.co.nz
+            </p> 
       </div>
     </div>
-  </nav><!-- INDEX BANNER -->
-  <header class="index-banner">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center">
-        <div class="col-12 text-center">
-          <h1>The Haukai<br>
-          Restaurant</h1>
-          <p class="lead">Home to traditional Maori kai.</p>
-        </div>
+  </div>
+<!--Reduced number of images to achieve <2s loading time in home page 
+  <div class="w3-quarter">
+    <div class="w3-card">
+      <picture>
+        <source srcset="images/nz_mod20d.jpg" media="(max-width: 600px)"class="w3-image w3-border w3-hover-grayscale">
+        <source srcset="images/index2_nz.jpg" media="(max-width: 1500px)" class="w3-image w3-border w3-hover-grayscale">
+        <img src="images/index2_nz.jpg" class="w3-image w3-border w3-hover-grayscale" alt="Maori Wood Carvings">
+       </picture>
+      <div class="w3-container w3-grey">
+        <p>New Zealand Landscape<p>
       </div>
     </div>
-  </header><!-- BODY CONTENT -->
-  <div class="container content-row">
-    <div class="row">
-      <div class="col-sm-12 col-lg-6 d-flex">
-        <div class="card text-center flex-fill">
-          <img alt="The Haukai Restaurant Counter Area"
-               class="card-img-top"
-               src="images/counter.jpg">
-          <div class="card-body">
-            <h5 class="card-title">The Haukai Restaurant</h5>
-            <p class="card-text">The Haukau Restaurant is a newly established eatery in the Bay of Islands. We provide a traditional and authentic dining experience with the fusion of Māori and Pākeha food/kai.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-lg-6 d-flex">
-        <div class="card text-center flex-fill">
-          <img alt="The Haukai Restaurant Kitchen"
-               class="card-img-top"
-               src="images/kitchen.jpg">
-          <div class="card-body">
-            <h5 class="card-title">Our Food</h5>
-            <p class="card-text">Our kitchen uses only the freshest produce. Sourced from the local area when preparing each and every meal.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-lg-6 d-flex">
-        <div class="card text-center flex-fill">
-          <img alt="The Haukai Restaurant Bar Area"
-               class="card-img-top"
-               src="images/bar.jpg">
-          <div class="card-body">
-            <h5 class="card-title">Drinks</h5>
-            <p class="card-text">We provide wide selection of alcoholic and non-alcoholic beverages to cater for every family member.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-lg-6 d-flex">
-        <div class="card text-center flex-fill">
-          <img alt="The Haukai Restaurant Dining Area"
-               class="card-img-top"
-               src="images/dining-area.jpg">
-          <div class="card-body">
-            <h5 class="card-title">Dining Area</h5>
-            <p class="card-text">We have a selection of indoor and outdoor seating available. Whether you're looking for a family gathering out or a romantic night out.</p>
-          </div>
-        </div>
+  </div>
+  <div class="w3-quarter">
+    <div class="w3-card">
+      <picture>
+        <source srcset="images/maori1_mod20d.jpg" media="(max-width: 600px)"class="w3-image w3-border w3-hover-grayscale">
+        <source srcset="images/index3_maori_640.jpg" media="(max-width: 1500px)" class="w3-image w3-border w3-hover-grayscale">
+        <img src="images/index3_maori_640.jpg" class="w3-image w3-border w3-hover-grayscale" alt="Maori Wood Carvings">
+       </picture>
+      <div class="w3-container w3-grey">
+        <p>Maori Wood Carvings<p>
       </div>
     </div>
-  </div><!-- SITE BUTTONS -->
-  <div class="container">
-    <div class="site-links">
-      <div class="row justify-content-center">
-        <div class="col-sm-12 col-lg-6">
-          <a href="menu.html"><button class="btn btn-dark btn-lg btn-block"
-                  type="button">OUR MENU</button></a> <a href="reservation.html"><button class="btn btn-dark btn-lg btn-block"
-                  type="button">RESERVATIONS</button></a> <a href="about.html#opening-hours"><button class="btn btn-dark btn-lg btn-block"
-                  type="button">OPENING HOURS</button></a> <a href="about.html"><button class="btn btn-dark btn-lg btn-block"
-                  type="button">ABOUT US</button></a> <a href="about.html#contact-us"><button class="btn btn-dark btn-lg btn-block"
-                  type="button">CONTACT US</button></a>
-        </div>
+  </div>
+  
+  <div class="w3-quarter">
+      <div class="w3-card">
+        <picture>
+          <source srcset="images/maori2_mod20d.jpg" media="(max-width: 600px)"class="w3-image w3-border w3-hover-grayscale">
+          <source srcset="images/index4_maori_640.jpg" media="(max-width: 1500px)" class="w3-image w3-border w3-hover-grayscale">
+          <img src="images/index4_maori_640.jpg" class="w3-image w3-border w3-hover-grayscale" alt="Maori mask">
+         </picture>
+            <div class="w3-container w3-grey">
+        <p>Cultural Mask</p>
       </div>
     </div>
-  </div><!-- SITE FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <p>The Haukai Restaurant ©<br>
-          <a href="privacy.html">Privacy Statement</a></p>
-        </div>
-      </div>
+    
+  </div>
+ -->
+</div>  <!--end of Additional content for images using w3-container-->
+<footer>
+  <div class="my_footer" role="contentinfo">
+    <div class="privacy">
+        <a href="privacy.html#priv" ><strong>Privacy Policy</strong></a>
     </div>
-  </footer>
-  <script crossorigin="anonymous"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
-  <script crossorigin="anonymous"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="copyright"> 
+        <p> All rights reserved. The Haukai Restaurant ©Copyright 2022.    </p> 
+    </div>
+  </div>
+</footer> 
 </body>
 </html>
