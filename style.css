@@ -13,7 +13,7 @@
 .index-banner {
     height: 500px;
     width: 100%;  
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+    background: linear-gradient(rgba(223, 207, 207, 0.7), rgba(0,0,0,.7)),
     url('images/index-banner.jpg');
     background-size: cover;
     background-position: center;
@@ -24,7 +24,7 @@
 .menu-banner {
     height: 500px;
     width: 100%;  
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+    background: linear-gradient(rgba(204, 196, 196, 0.7), rgba(0,0,0,.7)),
     url('images/menu-banner.jpg');
     background-size: cover;
     background-position: center;
@@ -35,7 +35,7 @@
 .reservation-banner {
     height: 500px;
     width: 100%;  
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+    background: linear-gradient(rgba(201, 192, 192, 0.7), rgba(0,0,0,.7)),
     url('images/reservation-banner.jpg');
     background-size: cover;
     background-position: center;
