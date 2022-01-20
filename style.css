@@ -35,7 +35,7 @@
 .reservation-banner {
     height: 500px;
     width: 100%;  
-    background: linear-gradient(rgba(201, 192, 192, 0.7), rgba(0,0,0,.7)),
+    background: linear-gradient(rgba(201, 192, 192, 0.7), rgba(196, 195, 195, 0.7)),
     url('images/reservation-banner.jpg');
     background-size: cover;
     background-position: center;
@@ -46,7 +46,7 @@
 .about-banner {
     height: 500px;
     width: 100%;  
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+    background: linear-gradient(rgba(75, 69, 69, 0.7), rgba(65, 61, 61, 0.7)),
     url('images/about-banner.jpg');
     background-size: cover;
     background-position: center;
@@ -54,10 +54,20 @@
     margin-bottom: 30px;
   }
 
+  .contacti-banner {
+    height: 500px;
+    width: 100%;  
+    background: linear-gradient(rgba(75, 69, 69, 0.7), rgba(65, 61, 61, 0.7)),
+    url('images/about-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
 .privacy-banner {
     height: 500px;
     width: 100%;  
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+    background: linear-gradient(rgba(136, 130, 130, 0.7), rgba(114, 110, 110, 0.7)),
     url('images/privacy.jpg');
     background-size: cover;
     background-position: center;
