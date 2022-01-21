@@ -1,4 +1,5 @@
-AuthName "Secure directory"
-AuthUserFile /path/to/password/file/.htpasswd
 AuthType Basic
+AuthName "Restricted acess"
+AuthUserFile "/home/susmi_26/Around@World/htdocs/.htpasswd"
 require valid-user
+ErrorDocument 401 default
