@@ -1,5 +1,5 @@
 AuthType Basic
 AuthName "Restricted acess"
-AuthUserFile "/home/susmi_26/Around@World/htdocs/.htpasswd"
+AuthUserFile "/private/.htpasswd"
 require valid-user
 ErrorDocument 401 default
